@@ -1,0 +1,83 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="Eslint" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="HtmlUnknownAttribute" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myValues">
+        <value>
+          <list size="6">
+            <item index="0" class="java.lang.String" itemvalue="data-toggle" />
+            <item index="1" class="java.lang.String" itemvalue="data-on" />
+            <item index="2" class="java.lang.String" itemvalue="data-onstyle" />
+            <item index="3" class="java.lang.String" itemvalue="data-off" />
+            <item index="4" class="java.lang.String" itemvalue="data-offstyle" />
+            <item index="5" class="java.lang.String" itemvalue="data-target" />
+          </list>
+        </value>
+      </option>
+      <option name="myCustomValuesEnabled" value="true" />
+    </inspection_tool>
+    <inspection_tool class="HttpUrlsUsage" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredUrls">
+        <list>
+          <option value="http://localhost" />
+          <option value="http://127.0.0.1" />
+          <option value="http://www.w3.org/2000/svg" />
+          <option value="http://www.w3.org/2000/10/XMLSchema" />
+          <option value="http://www.w3.org/2001/XMLSchema" />
+          <option value="http://www.w3.org/2001/XMLSchema-instance" />
+          <option value="http://www.w3.org/2003/03/wsdl" />
+          <option value="http://json-schema.org/draft" />
+          <option value="http://java.sun.com/xml/ns/" />
+          <option value="http://xmlns.jcp.org/xml/ns/" />
+          <option value="http://javafx.com/javafx/" />
+          <option value="http://javafx.com/fxml" />
+          <option value="http://maven.apache.org/xsd/" />
+          <option value="http://maven.apache.org/POM/" />
+          <option value="http://www.springframework.org/schema/" />
+          <option value="http://www.thymeleaf.org" />
+          <option value="http://www.ibm.com/webservices/xsd" />
+          <option value="http://schemas.xmlsoap.org/" />
+          <option value="http://cxf.apache.org/schemas/" />
+          <option value="http://test.%s" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="JSIgnoredPromiseFromCall" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="PhpArrayShapeAttributeCanBeAddedInspection" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="PhpCSValidationInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="IGNORE_WARNINGS" value="true" />
+      <option name="WARNING_HIGHLIGHT_LEVEL_NAME" value="ERROR" />
+      <option name="EXTENSIONS" value="php,js,css,inc" />
+    </inspection_tool>
+    <inspection_tool class="PhpDocMissingReturnTagInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="PhpDocMissingThrowsInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="PhpDocRedundantThrowsInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="PhpDocSignatureInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="PhpFullyQualifiedNameUsageInspection" enabled="true" level="INFORMATION" enabled_by_default="true">
+      <option name="IGNORE_GLOBAL_NAMESPACE" value="true" />
+    </inspection_tool>
+    <inspection_tool class="PhpMultipleClassDeclarationsInspection" enabled="false" level="WARNING" enabled_by_default="false">
+      <option name="DONT_INSPECT_DOCS" value="true" />
+    </inspection_tool>
+    <inspection_tool class="PhpPossiblePolymorphicInvocationInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <scope name="Tests" level="INFORMATION" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="PhpPureAttributeCanBeAddedInspection" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="PhpUndefinedClassInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PhpUndefinedFieldInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="NOTIFY_ACCESS_VIA_MAGIC_METHOD" value="false" />
+    </inspection_tool>
+    <inspection_tool class="PhpUnhandledExceptionInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PhpUnnecessaryFullyQualifiedNameInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="PhpWrongStringConcatenationInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="DISABLE_FOR_MAGIC_PROPERTIES" value="true" />
+    </inspection_tool>
+    <inspection_tool class="SpellCheckingInspection" enabled="false" level="TYPO" enabled_by_default="false">
+      <option name="processCode" value="true" />
+      <option name="processLiterals" value="true" />
+      <option name="processComments" value="true" />
+    </inspection_tool>
+    <inspection_tool class="SqlCurrentSchemaInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+  </profile>
+</component>
