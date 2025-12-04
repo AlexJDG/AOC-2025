@@ -21,7 +21,19 @@ pub fn part_one(input: &str) -> Option<u64> {
 }
 
 pub fn part_two(input: &str) -> Option<u64> {
-    None
+    Some(parse_input(input).iter().fold(0u64, |total, bank| {
+        let mut left_index = 0;
+        let mut joltage: u64 = 0;
+
+        for i in 0..12 {
+            let chunk = &bank[left_index..bank.len() - (12 - (i + 1))];
+            let biggest = chunk.iter().max().unwrap();
+            left_index += chunk.iter().position(|battery| battery == biggest).unwrap() + 1;
+            joltage += *biggest as u64 * (10u64.pow(12 - (i + 1) as u32))
+        }
+
+        total + joltage
+    }))
 }
 
 #[cfg(test)]
@@ -37,6 +49,6 @@ mod tests {
     #[test]
     fn test_part_two() {
         let result = part_two(&advent_of_code::template::read_file("examples", DAY));
-        assert_eq!(result, None);
+        assert_eq!(result, Some(3121910778619));
     }
 }
